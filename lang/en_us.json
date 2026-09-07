@@ -1,0 +1,12 @@
+{
+  "msg.launching": "Launching {name}",
+  "msg.exited": "{name} exited with code {code}",
+  "err.path_not_found": "'{path}' does not exist",
+  "err.not_bundle": "'{path}' is not a .app bundle (missing Info.tontoo)",
+  "err.read_info": "cannot read '{path}'",
+  "err.parse_info": "cannot parse Info.tontoo in '{path}'",
+  "err.missing_field": "Info.tontoo is missing '{field}'",
+  "err.extract": "cannot extract '{path}': {error}",
+  "err.no_binary": "no executable found in '{path}'",
+  "err.launch": "cannot launch '{path}': {error}"
+}

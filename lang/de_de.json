@@ -1,0 +1,12 @@
+{
+  "msg.launching": "Starte {name}",
+  "msg.exited": "{name} wurde mit Code {code} beendet",
+  "err.path_not_found": "'{path}' existiert nicht",
+  "err.not_bundle": "'{path}' ist kein .app Bundle (Info.tontoo fehlt)",
+  "err.read_info": "'{path}' kann nicht gelesen werden",
+  "err.parse_info": "Info.tontoo in '{path}' kann nicht gelesen werden",
+  "err.missing_field": "Info.tontoo fehlt das Feld '{field}'",
+  "err.extract": "'{path}' kann nicht entpackt werden: {error}",
+  "err.no_binary": "Keine ausführbare Datei in '{path}' gefunden",
+  "err.launch": "'{path}' kann nicht gestartet werden: {error}"
+}

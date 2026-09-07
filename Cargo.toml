@@ -1,0 +1,17 @@
+[package]
+name = "fishrunner"
+version = "26.1.0"
+edition = "2021"
+license = "TCL"
+description = "TontooOS app runner (tapp)"
+authors = ["arlomu"]
+
+[[bin]]
+name = "tapp"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+serde_json = "1"
+walkdir = "2"
+zip = { version = "2", default-features = false, features = ["deflate"] }
